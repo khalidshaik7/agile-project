@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SetupWizard">
+		<section name="VariablePage">
+		</section>
+		<section name="ConfirmationPage">
+		</section>
+		<section name="ProgressPage">
+		</section>
+	</section>
+	<section name="org.eclipse.oomph.setup.ui.wizards.SetupWizard$Updater">
+	</section>
+	<section name="org.eclipse.oomph.setup.ui.synchronizer.SynchronizerDialog">
+		<item key="dialogWidth" value="800"/>
+		<item key="dialogHeight" value="600"/>
+	</section>
+	<section name="org.eclipse.oomph.setup.ui.wizards.SetupWizard$Updater$2">
+		<item key="DIALOG_WIDTH" value="820"/>
+		<item key="DIALOG_HEIGHT" value="702"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="org.eclipse.oomph.setup.ui.LicenseDialog">
+		<item key="dialogWidth" value="1000"/>
+		<item key="dialogHeight" value="600"/>
+	</section>
+</section>
