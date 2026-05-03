@@ -19952,3 +19952,598 @@ Spring Boot 3.1.5 | Java 17 | JWT | Spring Security | H2 Database | JUnit 5
 *Version 1.0.0 | Created May 3, 2026 | Production Ready*
 EOFFILE
 ' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:33:46.922
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 8d2d3c72-b7c2-4c38-a8b4-a253c4ad51f6/d6636b72-30c2-4b4a-b02f-bdd6877bc2b2
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-05-03 22:33:46.924
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[chat] Work done token for conversation 8d2d3c72-b7c2-4c38-a8b4-a253c4ad51f6 is already cancelled, last updated at 1777840375114
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-05-03 22:33:46.924
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[chat] Work done token for conversation 8d2d3c72-b7c2-4c38-a8b4-a253c4ad51f6 is already cancelled, last updated at 1777840375114
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:33:46.924
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 190874 prompt, 4913 completion, 129279 cached (cache rate: 67.7%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:33:46.924
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agenticTurnProcessor] Turn d6636b72-30c2-4b4a-b02f-bdd6877bc2b2 was cancelled Canceled: Canceled
+    at t.abortIfCanceled (/snapshot/copilot-intellij/lib/src/toolCall/toolCallingLoop.ts:1200:19)
+    at t.processChatFetchResult (/snapshot/copilot-intellij/lib/src/toolCall/toolCallingLoop.ts:456:14)
+    at t.runOne (/snapshot/copilot-intellij/lib/src/toolCall/toolCallingLoop.ts:432:35)
+    at t.run (/snapshot/copilot-intellij/lib/src/toolCall/toolCallingLoop.ts:214:32)
+    at bye.processWithModelAndToolCall (/snapshot/copilot-intellij/lib/src/conversation/editAgent/agenticTurnProcessor.ts:214:13)
+    at bye.process (/snapshot/copilot-intellij/lib/src/conversation/editAgent/agenticTurnProcessor.ts:77:13)
+    at handleConversationTurnChecked (/snapshot/copilot-intellij/agent/src/methods/conversation/conversationTurn.ts:186:5)
+    at Er.messageHandler (/snapshot/copilot-intellij/agent/src/service.ts:372:45)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:33:46.924
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agenticTurnProcessor] Cancellation requested for turn d6636b72-30c2-4b4a-b02f-bdd6877bc2b2
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:21.051
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Rendering fresh global context for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:21.467
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for standby in 551ms: claude-haiku-4.5
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:21.533
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for reserve in 618ms: grok-code-fast-1
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:23.713
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 215746e7-aeaa-4864-80d2-d860b13c6e06 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 2690.3632080000825ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:26.685
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:26.686
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:26.769
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:27.599
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 26606d9d-da65-4c0a-a6ea-7edb728776a1 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 897.874584000092ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:27.660
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:27.660
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:27.730
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:28.481
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request cb53f4eb-34c1-4687-bfd8-735e76323e47 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 804.3264160000253ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:28.492
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:28.492
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:28.565
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:29.182
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 7606cf39-f7c2-477c-b694-4cd020c43974 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 677.1376249999739ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:29.677
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:29.678
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:29.751
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:30.407
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 45b9bc07-0cfe-4f82-8399-d39495204e90 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 669.8031670001801ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:35.960
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:35.960
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:35.992
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[codeMapper] Selected model: gpt-4o-instant-apply-full-ft-v66-short, Token count: 668 for file:///Users/s.khalid/Documents/agile-project/.github/workflows/maven-build.yml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:37.297
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request ccfe3552-1171-43f8-b1ae-592afb213d3f at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 1333.8412080002017ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:37.801
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:37.819
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:38.712
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request ff0a73bd-5d7f-4d84-8bd8-9e9ba1dfbc0d at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 889.074459000025ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:44.049
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:44.050
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:44.086
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[codeMapper] Selected model: gpt-4o-instant-apply-full-ft-v66-short, Token count: 615 for file:///Users/s.khalid/Documents/agile-project/.github/workflows/maven-build.yml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:44.491
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request c75811aa-d5b8-4058-87e6-a1a22e59bb89 at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 443.39254199992865ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:44.952
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:44.968
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:45.880
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 84830173-1338-4a9a-88c2-f57fa35f6a98 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 908.5133330000099ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:46.917
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:46.917
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:46.984
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:47.769
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 6e9f3c1f-ed8c-45d7-9d56-a69ee42cf1a8 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 837.6905409998726ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:50.040
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:50.041
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:50.041
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:50.041
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'sed -i 's/actions\/upload-artifact@v3/actions\/upload-artifact@v4/g' /Users/s.khalid/Documents/agile-project/.github/workflows/maven-build.yml' is split into sub-commands: ["sed -i 's/actions\\/upload-artifact@v3/actions\\/upload-artifact@v4/g' /Users/s.khalid/Documents/agile-project/.github/workflows/maven-build.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:50.041
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'sed -i 's/actions\/upload-artifact@v3/actions\/upload-artifact@v4/g' /Users/s.khalid/Documents/agile-project/.github/workflows/maven-build.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:54.998
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:55.606
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 736b2764-6364-4ebd-87cf-c7f82cb83c83 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 734.6414169999771ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:58.092
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:58.092
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:58.092
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'sed -i 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' /Users/s.khalid/Documents/agile-project/.github/workflows/maven-build.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:58.092
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:36:58.092
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'sed -i 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' /Users/s.khalid/Documents/agile-project/.github/workflows/maven-build.yml' is split into sub-commands: ["sed -i 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' /Users/s.khalid/Documents/agile-project/.github/workflows/maven-build.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:00.518
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:01.109
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request a7bd8ee4-cf80-4bd4-8c6b-8a28d43341f1 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 734.4384999999311ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:02.754
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:02.754
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' .github/workflows/maven-build.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:02.755
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' .github/workflows/maven-build.yml' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' .github/workflows/maven-build.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:02.755
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:02.755
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:04.908
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:08.382
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request efab8931-2925-4815-bea4-966b6cbbf711 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 3644.2480830000713ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:08.393
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:08.393
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' ".github/workflows/maven-build.yml"' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:08.394
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' ".github/workflows/maven-build.yml"' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' \".github/workflows/maven-build.yml\""]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:08.394
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:08.394
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:10.275
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:12.301
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 82b5655a-9d30-4d8e-9b53-62957d0ce21b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 2214.412042000098ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:12.369
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:12.369
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' .github/workflows/maven-build.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:12.369
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' .github/workflows/maven-build.yml' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i '' 's|actions/upload-artifact@v3|actions/upload-artifact@v4|g' .github/workflows/maven-build.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:12.369
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:12.369
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:14.437
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:14.944
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request af6ad0dc-063c-4489-8ff3-7eaa3f68c207 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 720.3483339999802ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:15.304
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:15.305
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:15.379
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:16.018
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 90fc8588-fae7-4e00-8940-21e947e7faae at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 704.4404170000926ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:19.088
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:19.088
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|actions/checkout@v3|actions/checkout@v4|g' .github/workflows/maven-build.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:19.088
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|actions/checkout@v3|actions/checkout@v4|g' .github/workflows/maven-build.yml' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i '' 's|actions/checkout@v3|actions/checkout@v4|g' .github/workflows/maven-build.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:19.088
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:19.089
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:22.841
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:23.783
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request ac7eb84a-c90a-48df-b45b-a2818002b3e8 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1149.795167000033ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:23.798
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:23.799
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|actions/setup-java@v3|actions/setup-java@v4|g' .github/workflows/maven-build.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:23.799
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|actions/setup-java@v3|actions/setup-java@v4|g' .github/workflows/maven-build.yml' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i '' 's|actions/setup-java@v3|actions/setup-java@v4|g' .github/workflows/maven-build.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:23.799
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:23.799
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:26.485
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:27.100
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:27.347
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 51d0417e-d613-4f48-a528-aefa1abafd4d at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 965.5008330000564ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:27.363
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:27.363
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:27.438
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/5b5cce6e-553b-497b-a5f4-0ef066be4f3a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:28.020
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request b103e330-922e-414f-b6b5-9e4ead9185c8 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 655.3760830000974ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:29.049
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:29.049
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 129722 prompt, 1325 completion, 123311 cached (cache rate: 95.1%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:29.790
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 465dd80b-1046-44a9-abd8-06a72081b285 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 744.3178340001032ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:37:29.854
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:09.735
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for active in 145ms: grok-code-fast-1
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:09.786
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/df1cd790-ce03-4bbf-9c99-62c349ace258
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:09.870
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for standby in 141ms: grok-code-fast-1
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:09.870
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for reserve in 141ms: claude-haiku-4.5
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:10.441
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 36381078-65b3-4160-a7bb-03d3a01ca248 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 650.5200409998652ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:11.772
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:11.772
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:11.880
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/df1cd790-ce03-4bbf-9c99-62c349ace258
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:12.722
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request fd693f9c-82f1-4ad5-b972-291add632f36 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 873.8230419999454ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:26.131
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:26.131
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:26.232
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/df1cd790-ce03-4bbf-9c99-62c349ace258
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:36.577
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 43a37337-c3b1-4274-8324-4a68aaa8589b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 10369.358915999997ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:44.183
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:44.184
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:44.234
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[codeMapper] Selected model: gpt-4o-instant-apply-full-ft-v66-short, Token count: 650 for file:///Users/s.khalid/Documents/agile-project/.github/workflows/codeql-analysis.yml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:44.979
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 95b3c994-b643-4c56-9b42-867ee4a0cca7 at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 805.5842500000726ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:45.508
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:45.532
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/df1cd790-ce03-4bbf-9c99-62c349ace258
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:46.267
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 7b06dbb7-3dc0-4aa4-ad82-dabec07bb31d at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 732.1502499999478ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:47.266
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:47.267
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:47.267
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:47.267
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' '6,7d' .github/workflows/codeql-analysis.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:39:47.267
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' '6,7d' .github/workflows/codeql-analysis.yml' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i '' '6,7d' .github/workflows/codeql-analysis.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:01.704
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/df1cd790-ce03-4bbf-9c99-62c349ace258
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:04.813
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 000ca200-8357-4aab-8227-1ef0c53c1684 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 3132.4358330001123ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:05.646
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agenticTurnProcessor] Cancellation requested for turn df1cd790-ce03-4bbf-9c99-62c349ace258
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:05.647
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agenticTurnProcessor] Turn df1cd790-ce03-4bbf-9c99-62c349ace258 was cancelled Canceled: Canceled
+    at t.abortIfCanceled (/snapshot/copilot-intellij/lib/src/toolCall/toolCallingLoop.ts:1200:19)
+    at t.processChatFetchResult (/snapshot/copilot-intellij/lib/src/toolCall/toolCallingLoop.ts:456:14)
+    at t.runOne (/snapshot/copilot-intellij/lib/src/toolCall/toolCallingLoop.ts:432:35)
+    at t.run (/snapshot/copilot-intellij/lib/src/toolCall/toolCallingLoop.ts:214:32)
+    at bye.processWithModelAndToolCall (/snapshot/copilot-intellij/lib/src/conversation/editAgent/agenticTurnProcessor.ts:214:13)
+    at bye.process (/snapshot/copilot-intellij/lib/src/conversation/editAgent/agenticTurnProcessor.ts:77:13)
+    at handleConversationTurnChecked (/snapshot/copilot-intellij/agent/src/methods/conversation/conversationTurn.ts:186:5)
+    at Er.messageHandler (/snapshot/copilot-intellij/agent/src/service.ts:372:45)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:05.647
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 51703 prompt, 286 completion, 50320 cached (cache rate: 97.3%)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-05-03 22:40:05.647
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[chat] Work done token for conversation b3094966-1e9d-401d-9c0e-9e01b78f3487 is already cancelled, last updated at 1777840805640
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-05-03 22:40:05.647
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[chat] Work done token for conversation b3094966-1e9d-401d-9c0e-9e01b78f3487 is already cancelled, last updated at 1777840805640
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:29.658
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/4b64d3f0-2b3a-4820-a95d-0fffc7122b8e
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:30.317
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request a6ef64c7-fdb5-420a-b310-7ed60dab408b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 698.9551659999415ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:39.283
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:39.284
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 15549 prompt, 404 completion, 15365 cached (cache rate: 98.8%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:39.942
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 4617dab7-b083-44f0-a70d-2bbded4d545c at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 716.9190840001684ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:40:40.088
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:06.054
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/83a88510-fb05-4573-8d2e-170410b3e9ba
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:17.674
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 2c6e2d1d-944f-4d88-8b4a-d38f656dca24 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 11698.121958999895ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:19.452
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:19.453
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' '6,7d' .github/workflows/codeql-analysis.yml' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i '' '6,7d' .github/workflows/codeql-analysis.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:19.453
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:19.453
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:19.453
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' '6,7d' .github/workflows/codeql-analysis.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:22.659
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/83a88510-fb05-4573-8d2e-170410b3e9ba
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:27.710
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 2e7f25d9-9b3a-4c31-b908-5ab819e85891 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 5307.503665999975ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:27.752
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:27.753
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:27.753
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' '53,82d' .github/workflows/copilot-review.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:27.753
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' '53,82d' .github/workflows/copilot-review.yml' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i '' '53,82d' .github/workflows/copilot-review.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:27.753
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:30.152
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/83a88510-fb05-4573-8d2e-170410b3e9ba
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:31.386
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 8708744f-0640-40a4-b029-d555323fbbfd at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1489.5882920001168ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:31.431
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:31.431
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:31.588
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/83a88510-fb05-4573-8d2e-170410b3e9ba
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:32.609
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 65bf2913-619d-4640-b39a-e701fd5bd51f at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1194.1189170000143ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:32.654
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:32.654
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:32.806
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/83a88510-fb05-4573-8d2e-170410b3e9ba
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:36.701
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request b8877ef4-9572-4c58-9de1-cf7e0a79bd83 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 4069.5202920001466ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:38.148
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:38.149
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|actions/checkout@v3|actions/checkout@v4|g; s|actions/setup-java@v3|actions/setup-java@v4|g' .github/workflows/codeql-analysis.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:38.149
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|actions/checkout@v3|actions/checkout@v4|g; s|actions/setup-java@v3|actions/setup-java@v4|g' .github/workflows/codeql-analysis.yml' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i '' 's|actions/checkout@v3|actions/checkout@v4|g; s|actions/setup-java@v3|actions/setup-java@v4|g' .github/workflows/codeql-analysis.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:38.149
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:38.149
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:40.728
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/83a88510-fb05-4573-8d2e-170410b3e9ba
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:42.030
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 7ede4111-66a3-4542-81e2-25777660c59b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1548.5519579998218ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:42.077
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:42.077
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|actions/checkout@v3|actions/checkout@v4|g; s|actions/setup-java@v3|actions/setup-java@v4|g' .github/workflows/copilot-review.yml' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i '' 's|actions/checkout@v3|actions/checkout@v4|g; s|actions/setup-java@v3|actions/setup-java@v4|g' .github/workflows/copilot-review.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:42.077
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|actions/checkout@v3|actions/checkout@v4|g; s|actions/setup-java@v3|actions/setup-java@v4|g' .github/workflows/copilot-review.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:42.077
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:42.077
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:45.685
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/83a88510-fb05-4573-8d2e-170410b3e9ba
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:50.100
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 7bcf3502-0d3d-46d7-b2bb-05f16132c051 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 4746.67279099999ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:50.153
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:50.153
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:50.154
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|github/codeql-action/init@v2|github/codeql-action/init@v3|g; s|github/codeql-action/autobuild@v2|github/codeql-action/autobuild@v3|g; s|github/codeql-action/analyze@v2|github/codeql-action/analyze@v3|g' .github/workflows/codeql-analysis.yml' is split into sub-commands: ["cd /Users/s.khalid/Documents/agile-project","sed -i '' 's|github/codeql-action/init@v2|github/codeql-action/init@v3|g; s|github/codeql-action/autobuild@v2|github/codeql-action/autobuild@v3|g; s|github/codeql-action/analyze@v2|github/codeql-action/analyze@v3|g' .github/workflows/codeql-analysis.yml"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:50.154
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /Users/s.khalid/Documents/agile-project && sed -i '' 's|github/codeql-action/init@v2|github/codeql-action/init@v3|g; s|github/codeql-action/autobuild@v2|github/codeql-action/autobuild@v3|g; s|github/codeql-action/analyze@v2|github/codeql-action/analyze@v3|g' .github/workflows/codeql-analysis.yml' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:50.156
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:52.578
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn b3094966-1e9d-401d-9c0e-9e01b78f3487/83a88510-fb05-4573-8d2e-170410b3e9ba
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:54.314
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request ba03de7e-63ac-4d42-9993-7cf95d1951a6 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 2019.67754100007ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:56.803
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:56.804
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 145429 prompt, 887 completion, 126153 cached (cache rate: 86.7%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:57.429
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request bbca258e-1bf2-4c9d-a07c-caccc3d256e0 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 675.7919999998994ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-03 22:41:57.566
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
