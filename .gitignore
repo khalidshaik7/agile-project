@@ -1,0 +1,39 @@
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build
+target/
+build/
+.gradle/
+*.jar
+*.war
+*.ear
+
+# Dependencies
+.m2/
+node_modules/
+
+# IDE Configuration Files
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE Misc
+.history/
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
