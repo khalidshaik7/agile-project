@@ -1504,8 +1504,8 @@
               {
                 "id": "tooluse_gn3MehYMlVSNNyKE9NtOP3",
                 "name": "run_in_terminal",
-                "progressMessage": "Running run_in_terminal tool",
-                "status": "running",
+                "progressMessage": "Ran run_in_terminal tool",
+                "status": "completed",
                 "result": []
               }
             ]
@@ -1523,5 +1523,5 @@
     }
   ],
   "creationDate": "2026-05-03T19:48:42.169671Z",
-  "lastMessageDate": "2026-05-03T20:32:18.254083Z"
+  "lastMessageDate": "2026-05-03T20:33:46.900313Z"
 }
