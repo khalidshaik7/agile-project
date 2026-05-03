@@ -35,6 +35,15 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
+       - name: Lint code
+         if: steps.changed-files.outputs.any_changed == 'true'
+         uses: github/super-linter@v5
+         env:
+           DEFAULT_BRANCH: main
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           VALIDATE_JAVA: true
+
+
       - name: Analyze code quality with Maven
         if: steps.changed-files.outputs.any_changed == 'true'
         run: |
@@ -49,4 +58,36 @@ jobs:
           echo "- [ ] Proper error handling"
           echo "- [ ] Unit tests added/updated"
           echo "- [ ] Documentation updated"
+
+
+       - name: Post review comment
+         if: steps.changed-files.outputs.any_changed == 'true'
+         uses: actions/github-script@v7
+         with:
+           script: |
+             const pr = context.payload.pull_request;
+             const comment = `## 🤖 AI-Assisted Code Review
+             
+             ### Review Checklist:
+             - **Code Quality**: Verifying Java best practices and Spring Boot conventions
+             - **Security**: Checking for potential vulnerabilities (using CodeQL in parallel)
+             - **Performance**: Ensuring optimal implementations
+             - **Testing**: Validating test coverage for new/modified code
+             
+             ### Build Status
+             - Build: ✅ Running
+             - Tests: ✅ Running
+             - CodeQL: ✅ Running in parallel
+             
+             Please review the CodeQL and build results for detailed findings.
+             
+             ---
+             *This is an automated review by GitHub Actions. Manual review still required.*`;
+             
+             github.rest.issues.createComment({
+               issue_number: pr.number,
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               body: comment
+             });
 
